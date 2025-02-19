@@ -1,0 +1,26 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 1280px; /* Largeur maximale de la modale */
+  width: 100%; /* Prend toute la largeur possible en dessous de 1280px */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ajoute une ombre pour plus de profondeur visuelle */
+  overflow-x: auto; /* Ajoute un défilement horizontal s'il y a trop de contenu */
+}
+
+.modal img {
+  max-width: 100%; /* L'image s'adapte à la largeur de la modale */
+  height: auto; /* Garde les proportions de l'image */
+}
