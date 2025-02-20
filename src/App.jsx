@@ -31,7 +31,7 @@ const App = () => {
     {
       title: 'Kasa Immo',
       description: "Appli d'une agence immobilière",
-      modalDescription: "Développement front-end du site, création de modales et de carrousels",
+      modalDescription: "Développement front-end du site, création de modales et de carrousels.",
       modalTools: "React, React Router, SCSS, Javascript et HTML",
       image: '/images/kasa03.svg',
     },
@@ -65,7 +65,8 @@ const App = () => {
 
         <div className='title-presentation'>
 
-          <h1>Natacha Lefèvre <br /> DÉVELOPPEUSE WEB</h1>
+          <h1 className='name'>Natacha Lefèvre</h1>
+          <h1 className='dev'>DÉVELOPPEUSE WEB</h1>
 
           <p className='text-presentation'>Graphiste multimédia en reconversion vers le développement web.<br />
             Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, <br />je poursuis la formation « Développeuse Web »,
