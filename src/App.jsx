@@ -57,7 +57,7 @@ const App = () => {
 
   return (
     <>
-      <Header />
+      <Header isModalOpen={isModalOpen} />
 
       <section id="presentation">
 

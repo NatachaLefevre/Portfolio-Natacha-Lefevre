@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Header.css';
 
-const Header = () => {
+const Header = ({ isModalOpen }) => {
   const handleScrollToSection = (sectionId) => {
     event.preventDefault(); // Pour éviter le comportement de lien normal
     const section = document.getElementById(sectionId);
@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header style={{ display: isModalOpen ? 'none' : 'block' }}>
       <nav>
         <ul className="nav-links">
           <li><a href="#presentation" onClick={() => handleScrollToSection('presentation')}>Présentation</a></li>
