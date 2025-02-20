@@ -69,7 +69,7 @@ const App = () => {
           <h1 className='dev'>DÉVELOPPEUSE WEB</h1>
 
           <p className='text-presentation'>Graphiste multimédia en reconversion vers le développement web.<br />
-            Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, <br />je poursuis la formation « Développeuse Web »,
+            Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, je poursuis la formation « Développeuse Web »,
             chez OpenClassrooms.<br />
             Je suis disponible pour toute collaboration, en front-end et en back-end.</p>
         </div>
