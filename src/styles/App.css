@@ -4,9 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 484px;
   /* background-color: #E6007E; */
   background-color: #242424;
-  margin: 64px auto;
+  padding-top: 34px;
+  padding-bottom: 0;
 
   .presentation-image {
     width: 250px;
@@ -93,11 +95,12 @@ h2 {
   object-fit: cover;
   transition: all 0.3s ease;
   border-radius: 20px;
+  opacity: 0.9;
   filter: grayscale(100%);
 }
 
 .project-container li:hover img {
-  opacity: 0.8;
+  opacity: 1;
   filter: none;
 }
 
