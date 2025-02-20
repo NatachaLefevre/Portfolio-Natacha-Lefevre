@@ -15,7 +15,7 @@ const Modal = ({ isOpen, onClose, project }) => {
       <div className="modal">
         <h2>{project.title}</h2>
         <img src={project.image} alt={project.title} />
-        <p>{project.modalDescription}</p>
+        <p className='description'>{project.modalDescription}</p>
         <p className='tools'>{project.modalTools}</p>
         <button onClick={onClose}>Fermer</button>
       </div>

@@ -5,7 +5,7 @@ import Project from './Project';
 import Footer from './Footer';
 import './styles/App.css';
 import './styles/Project.css';
-import photo from '/public/images/photo_CV.jpg'
+import photo from '/public/images/photo_CV.svg'
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -14,34 +14,34 @@ const App = () => {
   const projects = [
     {
       title: 'Booki',
-      description: "Page d'accueil d'une agence de voyage",
-      modalDescription: "À partir de la maquette Figma, j'ai assuré le développement front-end de la page d'accueil.",
+      description: "Page d'accueil d'une agence de voyages'",
+      modalDescription: "Développement de la page d'accueil, et du responsive desktop, tablette et mobile.",
       modalTools: "HTML et CSS",
-      image: '/images/image1.png',
+      image: '/images/booki01.svg',
     },
 
     {
       title: 'Architecte Sophie Bluel',
       description: "Portfolio d'une architecte",
-      modalDescription: "À partir de la maquette Figma, j'ai assuré le développement front-end de la page d'accueil.",
-      modalTools: "HTML et CSS",
-      image: '/images/image2.png',
+      modalDescription: "Développement d'un site dynamique, avec gestion des données et des connexions utilisateur via une API.",
+      modalTools: "Javascript, Node.js, API REST, HTML et CSS",
+      image: '/images/bluel01.svg',
     },
 
     {
       title: 'Kasa Immo',
       description: "Appli d'une agence immobilière",
-      modalDescription: "À partir de la maquette Figma, j'ai assuré le développement front-end de la page d'accueil.",
-      modalTools: "HTML et CSS",
-      image: '/images/image1.png',
+      modalDescription: "Développement front-end du site, création de modales et de carrousels",
+      modalTools: "React, React Router, SCSS, Javascript et HTML",
+      image: '/images/kasa03.svg',
     },
 
     {
       title: 'Mon Vieux Grimoire',
-      description: "Gestion back-end d'une appli de notation de livres",
-      modalDescription: "À partir de la maquette Figma, j'ai assuré le développement front-end de la page d'accueil.",
-      modalTools: "HTML et CSS",
-      image: '/images/image2.png',
+      description: "Appli de notation de livres",
+      modalDescription: "Création d'API, mise en place d'un système d'authentification, création de la notation et du classement des livres.",
+      modalTools: "MongoDB, Express.js, Node.js, API REST",
+      image: '/images/grimoire01.svg',
     },
   ];
 
@@ -68,14 +68,16 @@ const App = () => {
           <h1>Natacha Lefèvre <br /> DÉVELOPPEUSE WEB</h1>
 
           <p className='text-presentation'>Graphiste multimédia en reconversion vers le développement web.<br />
-            Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, <br />je suis la formation « Développeuse Web »,
+            Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, <br />je poursuis la formation « Développeuse Web »,
             chez OpenClassrooms.<br />
             Je suis disponible pour toute collaboration, en front-end et en back-end.</p>
         </div>
       </section>
 
       <section id="portfolio">
+        
           <h2>MES PROJETS</h2>
+          
           <div className="project-container">
             {projects.map((project, index) => (
               <Project
