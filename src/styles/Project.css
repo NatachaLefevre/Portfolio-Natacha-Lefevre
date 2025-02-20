@@ -1,0 +1,28 @@
+.project-info {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 5px; 
+  width: 80%;
+  transition: background-color 0.3s ease;
+}
+
+.project-container li:hover .project-info {
+  background-color: #E6007E;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.project-description {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 1em;
+}

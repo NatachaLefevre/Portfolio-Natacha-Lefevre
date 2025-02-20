@@ -1,0 +1,41 @@
+header {
+    position: fixed;
+    background-color: white;
+    padding: 5px 0;
+    text-align: center;
+    top: 0;
+    /* Positionne le header en haut */
+    left: 0;
+    /* Positionne le header sur toute la largeur */
+    width: 100%;
+    /* Prend toute la largeur de la fenêtre */
+    z-index: 1000;
+    /* Assure que le header est au-dessus des autres éléments */
+    border-bottom: 1px solid #E6007E;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: #242424;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #E6007E;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}

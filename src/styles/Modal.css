@@ -11,13 +11,28 @@
 }
 
 .modal {
+  text-align: center;
   background: white;
   padding: 20px;
   border-radius: 4px;
-  max-width: 1280px; /* Largeur maximale de la modale */
+  max-width: 1000px; /* Largeur maximale de la modale */
   width: 100%; /* Prend toute la largeur possible en dessous de 1280px */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ajoute une ombre pour plus de profondeur visuelle */
   overflow-x: auto; /* Ajoute un défilement horizontal s'il y a trop de contenu */
+}
+
+.modal h2 {
+  color: #E6007E;
+}
+
+.modal p {
+  line-height: 1em;
+}
+
+.tools {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .modal img {

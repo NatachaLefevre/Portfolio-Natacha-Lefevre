@@ -1,65 +1,98 @@
-#root {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 2rem;
+
+
+
+/* SECTION PRÉSENTATION */
+
+#presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E6007E;
+  margin: 64px auto;
+
+  .presentation-image {
+    width: 250px;
+    /* Ajustez la taille de l'image ici */
+    height: 320px;
+    margin-right: 100px;
+    /* Espacement entre l'image et le texte */
+    object-fit: cover;
+  }
+
+  /* TITRE + TEXTE DE PRÉSENTATION */
+  .title-presentation {
+    text-align: left;
+
+    h1 {
+      font-size: 3.5em;
+      line-height: 1.3;
+      color: white;      
+    }
+
+    .text-presentation {
+      font-size: 1.2em;
+      line-height: 1.2;
+      color: white;
+      max-width: 800px;
+    margin-bottom: 10px;
+    }
+  }
+}
+
+
+
+/* SECTION PORTFOLIO */
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.projects-container {
+
+h2 {
+  font-size: 2em;
+}
+
+.project-container {
   display: flex;
-  flex-wrap: wrap; /* Permet de continuer sur la ligne suivante si l'espace est insuffisant */
-  justify-content: center; /* Distribue l'espace entre les colonnes */
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1440px;
 }
 
-.projects-container li {
-  list-style: none; /* Enlève les puces de la liste */
-  margin: 20px; /* Espacement entre les projets */
-  position: relative; /* Nécessaire pour les effets de survol */
-}
-
-.projects-container img {
-  width: 600px; /* Largeur de l'image */
-  height: 420px; /* Hauteur de l'image */
-  transition: all 0.3s ease; /* Ajoute une transition douce */
-}
-
-.projects-container li:hover img {
-  opacity: 0.7; /* Change l'opacité au survol */
-  filter: brightness(0.8); /* Change la luminosité aussi */
-}
-
-.projects-container h3 {
-  position: absolute; /* Positionne le titre */
-  top: 10px; /* Ajustez selon vos besoins */
-  left: 10px; /* Ajustez selon vos besoins */
-  color: white; /* Couleur du texte */
-  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le titre */
-  padding: 5px; /* Espacement autour du texte */
-}
-
-.project-image {
+.project-container li {
+  width: 600px;
+  height: 420px;
+  list-style: none;
+  margin: 20px;
   position: relative;
+  cursor: pointer;
 }
 
-.project-info {
+.project-container img {
+  width: 600px;
+  height: 420px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+}
+
+.project-container li:hover img {
+  opacity: 0.8;
+  filter: grayscale(100%);
+}
+
+/* .projects-container h3 {
   position: absolute;
-  bottom: 0; /* Positionner en bas de l'image */
-  left: 0; /* À gauche de l'image */
-  right: 0; /* À droite de l'image */
-  background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
-  color: white; /* Couleur du texte */
-  padding: 10px; /* Espacement interne */
-  text-align: center; /* Centrer le texte */
-}
-
-.project-info h3 {
-  margin: 0; /* Supprimer les marges par défaut */
-}
-
-.project-info p {
-  margin: 5px 0 0; /* Marges pour le paragraphe */
-}
-
+  top: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+} */
 
 /* .logo {
   height: 6em;
@@ -96,5 +129,3 @@
 .read-the-docs {
   color: #888;
 } */
-
-
