@@ -1,17 +1,16 @@
+/* HEADER ET LIENS */
+
 header {
     position: fixed;
     background-color: white;
     padding: 5px 0;
-    text-align: center;
+    text-align: left;
     top: 0;
-    /* Positionne le header en haut */
     left: 0;
-    /* Positionne le header sur toute la largeur */
     width: 100%;
-    /* Prend toute la largeur de la fenêtre */
     z-index: 1000;
-    /* Assure que le header est au-dessus des autres éléments */
     border-bottom: 1px solid #E6007E;
+    overflow: hidden;
 }
 
 .nav-links {
@@ -35,7 +34,77 @@ header {
     color: #E6007E;
 }
 
-section {
-    padding: 50px 20px;
-    text-align: center;
+
+/* MENU HAMBURGER */
+
+.menu-hamburger {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    width: 35px;
+    height: 35px;
+    /* margin-left: auto; */
+}
+
+.bar {
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+
+
+@media (max-width: 780px) {
+
+    /* HEADER ET LIENS */
+
+    header {
+        background-color: transparent;
+        border-bottom: none;
+        padding: 0;
+    }
+
+
+    /* MENU HAMBURGER */
+
+    .menu-hamburger {
+        display: flex;
+        position: fixed;
+        background-color: #E6007E;
+        padding: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100px;
+        padding: 10px;
+        margin: 0;
+        position: relative;
+        right: 0;
+        /* top: 50px; */
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .nav-links li {
+        margin: 2px 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .menu-hamburger {
+        width: 30px;
+        height: 30px;
+    }
+
 }
