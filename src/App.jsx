@@ -18,7 +18,7 @@ const App = () => {
       modalDescription: "Développement de la page d'accueil de l'agence Booki, à partir d'une maquette Figma. La problématique était principalement de respecter la maquette, et d'assurer le responsive desktop, tablette et mobile.",
       modalTools: "HTML et CSS",
       image: '/images/booki01.svg',
-      githubUrl: 'https://github.com/NatachaLefevre/OpenClassrooms_Projet2',
+      githubUrl: 'https://github.com/NatachaLefevre/Booki-site-d-agence-de-voyages',
     },
 
     {
