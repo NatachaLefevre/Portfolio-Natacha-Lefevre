@@ -18,32 +18,57 @@
   background: white;
   padding: 20px;
   border-radius: 20px;
-  max-width: 1000px; /* Largeur maximale de la modale */
-  width: 100%; /* Prend toute la largeur possible en dessous de 1280px */
-  max-height: 100vh; /* Pour s'adapter à la hauteur de la fenêtre */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ajoute une ombre pour plus de profondeur visuelle */
-  overflow: auto; /* Ajoute un défilement horizontal s'il y a trop de contenu */
+  max-width: 1000px;
+  width: 100%;
+  max-height: 100vh; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  overflow: auto;
 }
 
 .modal h2 {
+  margin-top: 0;
   color: #E6007E;
 }
 
+.image-description-wrapper {
+  max-width: 90%;
+  display: flex; /* Utilisez flex pour ranger l'image et la description */
+  flex-direction: column; /* Alignez les éléments verticalement */
+  align-items: center; /* Centre les éléments dans le conteneur */
+}
+
+.image-description-wrapper img {
+  width: 100%;
+  max-height: 70vh; /* Garde les proportions de l'image */
+  margin: 0;
+  border: 1px solid #E6007E;
+}
+
 .description {
-  line-height: 1em;
-  max-width: 800px;
-  margin-bottom: 0;
+  line-height: 1.2em;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1em;
+  color: #242424;
+  background-color: #e5e5e5;
+  padding: 15px 10px;
+  box-sizing: border-box;
 }
 
 .tools {
   font-weight: 700;
-  margin-bottom: 30px;
+  margin: 5px 0;
+  font-size: 1em;
 }
 
-.modal img {
-  max-width: 90%; /* L'image s'adapte à la largeur de la modale */
-  max-height: 70vh; /* Garde les proportions de l'image */
-  border: 1px solid #E6007E;
+.modal a {
+  font-size: 1em;
+  color: #242424;
+  margin-bottom: 20px;
+}
+
+.modal a:hover {
+  color: #E6007E;
 }
 
 button {
@@ -68,6 +93,40 @@ button:hover {
 
   .modal {
     border-radius: 0;
+  }
+
+  .description {
+    max-width: 480px;
+    font-size: 0.8em;
+  }
+
+  .tools,
+  .modal a {
+    font-size: 0.8em;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .description {
+    max-width: 350px;
+    font-size: 0.6em;
+  }
+
+  .tools,
+  .modal a {
+    font-size: 0.6em;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .description {
+    max-width: 300px;
   }
 
 }
