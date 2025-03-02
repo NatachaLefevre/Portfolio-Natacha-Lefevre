@@ -73,7 +73,7 @@ const App = () => {
           <h1 className='dev'>DÉVELOPPEUSE WEB</h1>
 
           <p className='text-presentation'>Graphiste multimédia en reconversion vers le développement web.<br />
-            Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, je suis disponible pour tout collaboration.<br />
+            Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, je suis disponible pour toute collaboration.<br />
             Je présente un profil polyvalent : HTML, CSS, React, Javascript, Node.js, MongoDb, UI design...</p>
         </div>
       </section>
