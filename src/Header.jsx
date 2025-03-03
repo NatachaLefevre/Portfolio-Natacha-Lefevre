@@ -43,7 +43,7 @@ const Header = ({ isModalOpen }) => {
                 <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`} ref={navRef}>
                     <li><a href="#presentation" onClick={(e) => handleScrollToSection(e, 'presentation')}>Présentation</a></li>
                     <li><a href="#portfolio" onClick={(e) => handleScrollToSection(e, 'portfolio')}>Portfolio</a></li>
-                    <li><a href="/CV_Natacha_LEFEVRE.pdf" download onClick={() => setIsMenuOpen(false)}>CV</a></li>
+                    <li><a href="/CV_Natacha_LEFEVRE.pdf" target="_blank">CV</a></li>
                 </ul>
             </nav>
         </header>
