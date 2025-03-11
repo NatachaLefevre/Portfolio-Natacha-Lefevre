@@ -37,7 +37,7 @@ const App = () => {
 
           <p className='text-presentation'>Graphiste multimédia en reconversion vers le développement web.<br />
             Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, je suis disponible pour toute collaboration.<br />
-            Je présente un profil polyvalent : HTML, CSS, React, Javascript, Node.js, MongoDb, UI design...</p>
+            Je présente un profil polyvalent : HTML, CSS, React, Javascript, Node.js, MongoDb, Wordpress, UI design...</p>
         </div>
       </section>
 
