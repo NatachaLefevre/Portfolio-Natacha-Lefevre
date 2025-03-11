@@ -1,0 +1,55 @@
+[
+    {
+        "title": "Booki",
+        "description": "Page d'accueil d'une agence de voyages",
+        "modalDescription": "Développement de la page d'accueil de l'agence Booki, à partir d'une maquette Figma. La problématique était principalement de respecter la maquette, et d'assurer le responsive desktop, tablette et mobile.",
+        "modalTools": "HTML et CSS",
+        "image": "/images/Booki.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Booki-site-d-agence-de-voyages"
+    },
+
+    {
+        "title": "Sophie Bluel",
+        "description": "Portfolio d'une architecte",
+        "modalDescription": "Développement d'un site dynamique, avec gestion des données et des connexions utilisateur via une API. Il était important d'assurer la sécurité des identifiants de la cliente, et de lui permettre de classer efficacement ses projets.",
+        "modalTools": "Javascript, Node.js, API REST, HTML et CSS",
+        "image": "/images/Sophie_Bluel.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Portfolio-architecte-sophie-bluel"
+    },
+
+    {
+        "title": "Kasa Immo",
+        "description": "Appli d'une agence immobilière",
+        "modalDescription": "Développement front-end du site, avec création de menus déroulants, de carrousels d'images et de modales. L'une des problématiques était de simplifier le code au mieux afin d'éviter les redondances. Le tout en respectant le responsive design.",
+        "modalTools": "React, React Router, SCSS, Javascript et HTML",
+        "image": "/images/Kasa.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/kasa-immo-appli"
+      },
+
+    {
+        "title": "Nina Carducci",
+        "description": "Portfolio d'une photographe",
+        "modalDescription": "Debug et optimisation d'un site portfolio, pour la photographe Nina Carducci. Le plus important a été d'améliorer les performances du site par l'optimisation des images, l'accessibilité et le référencement, et la réparation de bugs.",
+        "modalTools": "HTML, CSS, Javascript, Lighthouse, Wave",
+        "image": "/images/Nina_Carducci.webp",
+        "githubUrl": "https: //github.com/NatachaLefevre/Nina-Carducci-Debug-Optimisation"
+    },
+
+    {
+        "title": "Mon Vieux Grimoire",
+        "description": "Appli de notation de livres",
+        "modalDescription": "Création d'une API, afin de permettre aux utilisateurs de noter des livres, de s'inscrire et d'ajouter des livres de leur choix. Mon travail sur ce site a été exclusivement back-end, avec notamment la mise en place d'un système d'authentification sécurisé.",
+        "modalTools": "MongoDB, Express.js, Node.js, API REST",
+        "image": "/images/Grimoire.webp",
+        "githubUrl": "https: //github.com/NatachaLefevre/Appli-back-end-Mon-Vieux-Grimoire"
+    },
+
+    {
+        "title": "Qwenta - Menu Maker",
+        "description": "Gestion de projet de développement",
+        "modalDescription": "Gestion et organisation du développement d'une API de création de menus personnalisés pour des restaurateurs. Le projet est basé sur une organisation Agile utilisant Scrum et Kanban.",
+        "modalTools": "Notion, Feedly, Agile",
+        "image": "/images/Menu_Maker.webp",
+        "githubUrl": "https: //github.com/NatachaLefevre/Qwenta-Menu-Maker"
+    }
+]
