@@ -43,7 +43,6 @@ header {
     flex-direction: column;
     width: 35px;
     height: 35px;
-    /* margin-left: auto; */
 }
 
 .bar {
@@ -62,7 +61,7 @@ header {
         background-color: transparent;
         border-bottom: none;
         padding: 0;
-    }
+    }  
 
 
     /* MENU HAMBURGER */
@@ -83,19 +82,17 @@ header {
         margin: 0;
         position: relative;
         right: 0;
-        /* top: 50px; */
         background-color: white;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .nav-links.active {
         display: flex;
-        border-bottom-left-radius: 5px;
-        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
 
     .nav-links li {
-        margin: 2px 0;
+        margin: 5px 0;
     }
 }
 

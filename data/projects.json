@@ -32,7 +32,7 @@
         "modalDescription": "Debug et optimisation d'un site portfolio, pour la photographe Nina Carducci. Le plus important a été d'améliorer les performances du site par l'optimisation des images, l'accessibilité et le référencement, et la réparation de bugs.",
         "modalTools": "HTML, CSS, Javascript, Lighthouse, Wave",
         "image": "/images/Nina_Carducci.webp",
-        "githubUrl": "https: //github.com/NatachaLefevre/Nina-Carducci-Debug-Optimisation"
+        "githubUrl": "https://github.com/NatachaLefevre/Nina-Carducci-Debug-Optimisation"
     },
 
     {
@@ -41,7 +41,7 @@
         "modalDescription": "Création d'une API, afin de permettre aux utilisateurs de noter des livres, de s'inscrire et d'ajouter des livres de leur choix. Mon travail sur ce site a été exclusivement back-end, avec notamment la mise en place d'un système d'authentification sécurisé.",
         "modalTools": "MongoDB, Express.js, Node.js, API REST",
         "image": "/images/Grimoire.webp",
-        "githubUrl": "https: //github.com/NatachaLefevre/Appli-back-end-Mon-Vieux-Grimoire"
+        "githubUrl": "https://github.com/NatachaLefevre/Appli-back-end-Mon-Vieux-Grimoire"
     },
 
     {
@@ -50,6 +50,6 @@
         "modalDescription": "Gestion et organisation du développement d'une API de création de menus personnalisés pour des restaurateurs. Le projet est basé sur une organisation Agile utilisant Scrum et Kanban.",
         "modalTools": "Notion, Feedly, Agile",
         "image": "/images/Menu_Maker.webp",
-        "githubUrl": "https: //github.com/NatachaLefevre/Qwenta-Menu-Maker"
+        "githubUrl": "https://github.com/NatachaLefevre/Qwenta-Menu-Maker"
     }
 ]
