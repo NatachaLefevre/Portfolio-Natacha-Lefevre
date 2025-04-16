@@ -1,5 +1,23 @@
 [
     {
+        "title": "Kasa Immo",
+        "description": "Appli d'une agence immobilière",
+        "modalDescription": "Développement front-end du site, avec création de menus déroulants, de carrousels d'images et de modales. L'une des problématiques était de simplifier le code au mieux afin d'éviter les redondances. Le tout en respectant le responsive design.",
+        "modalTools": "React, React Router, SCSS, Javascript et HTML",
+        "image": "/images/Kasa.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/kasa-immo-appli"
+      },
+      
+    {
+        "title": "Sophie Bluel",
+        "description": "Portfolio d'une architecte",
+        "modalDescription": "Développement d'un site dynamique, avec gestion des données et des connexions utilisateur via une API. Il était important d'assurer la sécurité des identifiants de la cliente, et de lui permettre de classer efficacement ses projets.",
+        "modalTools": "Javascript, Node.js, API REST, HTML et CSS",
+        "image": "/images/Sophie_Bluel.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Portfolio-architecte-sophie-bluel"
+    },
+      
+      {
         "title": "Booki",
         "description": "Page d'accueil d'une agence de voyages",
         "modalDescription": "Développement de la page d'accueil de l'agence Booki, à partir d'une maquette Figma. La problématique était principalement de respecter la maquette, et d'assurer le responsive desktop, tablette et mobile.",
@@ -9,30 +27,30 @@
     },
 
     {
-        "title": "Sophie Bluel",
-        "description": "Portfolio d'une architecte",
-        "modalDescription": "Développement d'un site dynamique, avec gestion des données et des connexions utilisateur via une API. Il était important d'assurer la sécurité des identifiants de la cliente, et de lui permettre de classer efficacement ses projets.",
-        "modalTools": "Javascript, Node.js, API REST, HTML et CSS",
-        "image": "/images/Sophie_Bluel.webp",
-        "githubUrl": "https://github.com/NatachaLefevre/Portfolio-architecte-sophie-bluel"
-    },
-
-    {
-        "title": "Kasa Immo",
-        "description": "Appli d'une agence immobilière",
-        "modalDescription": "Développement front-end du site, avec création de menus déroulants, de carrousels d'images et de modales. L'une des problématiques était de simplifier le code au mieux afin d'éviter les redondances. Le tout en respectant le responsive design.",
-        "modalTools": "React, React Router, SCSS, Javascript et HTML",
-        "image": "/images/Kasa.webp",
-        "githubUrl": "https://github.com/NatachaLefevre/kasa-immo-appli"
-      },
-
-    {
         "title": "Nina Carducci",
         "description": "Portfolio d'une photographe",
         "modalDescription": "Debug et optimisation d'un site portfolio, pour la photographe Nina Carducci. Le plus important a été d'améliorer les performances du site par l'optimisation des images, l'accessibilité et le référencement, et la réparation de bugs.",
         "modalTools": "HTML, CSS, Javascript, Lighthouse, Wave",
         "image": "/images/Nina_Carducci.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Nina-Carducci-Debug-Optimisation"
+    },
+
+    {
+        "title": "UbiMove",
+        "description": "Service numérique RH",
+        "modalDescription": "Création d'interfaces pour un concours internet d'amélioration des services RH d'Ubisoft. ",
+        "modalTools": "Suite Adobe, UI design, illustration",
+        "image": "/images/UbiMove.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/UbiMove"
+    },
+
+    {
+        "title": "ArtePhy",
+        "description": "Service numérique",
+        "modalDescription": "ArtePhy est un générateur de mèmes vidéo générés à partir des contenus d'Arte. Mon rôle a été de créer les interfaces du service, pour le rendre le plus intuitif et accessible possible pour les utilisateurs.",
+        "modalTools": "Suite Adobe, game design",
+        "image": "/images/ArtePhy.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/ArtePhy"
     },
 
     {
@@ -51,5 +69,23 @@
         "modalTools": "Notion, Feedly, Agile",
         "image": "/images/Menu_Maker.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Qwenta-Menu-Maker"
+    },
+
+    {
+        "title": "CulturoGame",
+        "description": "Plateforme numérique de jeux",
+        "modalDescription": "Création d'interfaces responsive d'une plateforme de jeux et quizz sur le thème de Paris. Elle proposait notamment CulturoGo, un équivalent de PokemonGo avec des œuvres parisiennes à traquer dans les rues de Paris.",
+        "modalTools": "Suite Adobe, game design",
+        "image": "/images/CulturoGame.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/CulturoGame"
+    },
+
+    {
+        "title": "Levelbab",
+        "description": "Identité visuelle d'une entreprise immobilière",
+        "modalDescription": "Création du logo et de la charte graphique d'une entreprise qui aide à l'accès à l'achat immobilier. Les visuels ont été conçus pour être exploitables sur des supports print et web.",
+        "modalTools": "Suite Adobe, UI design",
+        "image": "/images/LevelBab.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/LevelBab"
     }
 ]
