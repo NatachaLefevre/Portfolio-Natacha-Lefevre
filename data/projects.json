@@ -10,7 +10,7 @@
       
     {
         "title": "Sophie Bluel",
-        "description": "Portfolio d'une architecte",
+        "description": "Portfolio dynamique d'une d'architecte",
         "modalDescription": "Développement d'un site dynamique, avec gestion des données et des connexions utilisateur via une API. Il était important d'assurer la sécurité des identifiants de la cliente, et de lui permettre de classer efficacement ses projets.",
         "modalTools": "Javascript, Node.js, API REST, HTML et CSS",
         "image": "/images/Sophie_Bluel.webp",
@@ -19,7 +19,7 @@
       
       {
         "title": "Booki",
-        "description": "Page d'accueil d'une agence de voyages",
+        "description": "Page d'accueil responsive d'une agence de voyages",
         "modalDescription": "Développement de la page d'accueil de l'agence Booki, à partir d'une maquette Figma. La problématique était principalement de respecter la maquette, et d'assurer le responsive desktop, tablette et mobile.",
         "modalTools": "HTML et CSS",
         "image": "/images/Booki.webp",
@@ -28,7 +28,7 @@
 
     {
         "title": "Nina Carducci",
-        "description": "Portfolio d'une photographe",
+        "description": "Optimisation et debug d'un portfolio de photographe",
         "modalDescription": "Debug et optimisation d'un site portfolio, pour la photographe Nina Carducci. Le plus important a été d'améliorer les performances du site par l'optimisation des images, l'accessibilité et le référencement, et la réparation de bugs.",
         "modalTools": "HTML, CSS, Javascript, Lighthouse, Wave",
         "image": "/images/Nina_Carducci.webp",
@@ -37,7 +37,7 @@
 
     {
         "title": "UbiMove",
-        "description": "Service numérique RH",
+        "description": "Design d'une service numérique interne pour UbiSoft",
         "modalDescription": "Création d'interfaces pour un concours internet d'amélioration des services RH d'Ubisoft. ",
         "modalTools": "Suite Adobe, UI design, illustration",
         "image": "/images/UbiMove.webp",
@@ -45,8 +45,17 @@
     },
 
     {
+        "title": "Meet Team'n'Play",
+        "description": "Design d'un service numérique pour UbiSoft",
+        "modalDescription": "Meet Team'n'Play propose de regrouper les joueurs des jeux Ubisoft, via un overlay directement en jeu activé avec la manette. J'ai réalisé le logo et les interfaces utilisateurs.",
+        "modalTools": "Suite Adobe, UI design",
+        "image": "/images/Meet_Team_n_Play.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Meet_Team_n_Play"
+    },
+
+    {
         "title": "ArtePhy",
-        "description": "Service numérique",
+        "description": "Design de service numérique pour Arte",
         "modalDescription": "ArtePhy est un générateur de mèmes vidéo générés à partir des contenus d'Arte. Mon rôle a été de créer les interfaces du service, pour le rendre le plus intuitif et accessible possible pour les utilisateurs.",
         "modalTools": "Suite Adobe, game design",
         "image": "/images/ArtePhy.webp",
@@ -55,7 +64,7 @@
 
     {
         "title": "Mon Vieux Grimoire",
-        "description": "Appli de notation de livres",
+        "description": "Back-end d'une appli de notation de livres",
         "modalDescription": "Création d'une API, afin de permettre aux utilisateurs de noter des livres, de s'inscrire et d'ajouter des livres de leur choix. Mon travail sur ce site a été exclusivement back-end, avec notamment la mise en place d'un système d'authentification sécurisé.",
         "modalTools": "MongoDB, Express.js, Node.js, API REST",
         "image": "/images/Grimoire.webp",
@@ -64,7 +73,7 @@
 
     {
         "title": "Qwenta - Menu Maker",
-        "description": "Gestion de projet de développement",
+        "description": "Gestion de projet de développement de site",
         "modalDescription": "Gestion et organisation du développement d'une API de création de menus personnalisés pour des restaurateurs. Le projet est basé sur une organisation Agile utilisant Scrum et Kanban.",
         "modalTools": "Notion, Feedly, Agile",
         "image": "/images/Menu_Maker.webp",
@@ -73,7 +82,7 @@
 
     {
         "title": "CulturoGame",
-        "description": "Plateforme numérique de jeux",
+        "description": "Design d'une plateforme numérique de jeux",
         "modalDescription": "Création d'interfaces responsive d'une plateforme de jeux et quizz sur le thème de Paris. Elle proposait notamment CulturoGo, un équivalent de PokemonGo avec des œuvres parisiennes à traquer dans les rues de Paris.",
         "modalTools": "Suite Adobe, game design",
         "image": "/images/CulturoGame.webp",
