@@ -33,7 +33,7 @@ const App = () => {
         <div className='title-presentation'>
 
           <h1 className='name'>Natacha Lefèvre</h1>
-          <h1 className='dev'>GRAPHISTE - DEV WEB</h1>
+          <h1 className='dev'>GRAPHISTE DÉVELOPPEUSE</h1>
 
           <p className='text-presentation'>Graphiste multimédia et développeuse web.<br />
             je suis disponible pour toute collaboration.<br />
