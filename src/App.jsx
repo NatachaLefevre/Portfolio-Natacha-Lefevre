@@ -33,11 +33,11 @@ const App = () => {
         <div className='title-presentation'>
 
           <h1 className='name'>Natacha Lefèvre</h1>
-          <h1 className='dev'>DÉVELOPPEUSE WEB</h1>
+          <h1 className='dev'>GRAPHISTE - DEV WEB</h1>
 
-          <p className='text-presentation'>Graphiste multimédia en reconversion vers le développement web.<br />
-            Très enthousiaste à l’idée de commencer une nouvelle aventure professionnelle, je suis disponible pour toute collaboration.<br />
-            Je présente un profil polyvalent : HTML, CSS, React, Javascript, Node.js, MongoDb, Wordpress, UI design...</p>
+          <p className='text-presentation'>Graphiste multimédia et développeuse web.<br />
+            je suis disponible pour toute collaboration.<br />
+            Je présente un profil polyvalent : print, webdesign, développement fullstack, SEO, UI design...</p>
         </div>
       </section>
 
