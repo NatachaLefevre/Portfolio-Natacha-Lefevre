@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import './styles/Project.css';
 import './styles/App.css';
 
@@ -18,6 +18,11 @@ const Project = ({ project, onClick }) => {
       </div>
     </li>
   );
+};
+
+Project.propTypes = {
+  project: PropTypes.object.isRequired,
+  onClick: PropTypes.func
 };
 
 export default Project;

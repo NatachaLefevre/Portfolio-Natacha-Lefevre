@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import './styles/Header.css';
 
 const Header = ({ isModalOpen }) => {
@@ -48,6 +49,10 @@ const Header = ({ isModalOpen }) => {
             </nav>
         </header>
     );
+};
+
+Header.propTypes = {
+  isModalOpen: PropTypes.bool.isRequired
 };
 
 export default Header;

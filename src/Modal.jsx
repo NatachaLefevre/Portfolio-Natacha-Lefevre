@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import './styles/Modal.css';
 
 const Modal = ({ isOpen, onClose, project }) => {
@@ -19,7 +20,7 @@ const Modal = ({ isOpen, onClose, project }) => {
         onClose();
       }, 300);
     }
-  }, [isOpen]);
+}, [isOpen, visible, onClose]);
 
   // Fermer la modale avec la touche Echap
   useEffect(() => {
@@ -41,7 +42,7 @@ const Modal = ({ isOpen, onClose, project }) => {
       document.removeEventListener("keydown", handleKeyDown);
     };
 
-  }, [isOpen]);
+}, [isOpen, onClose]);
 
   if (!visible) return null;
 
@@ -78,6 +79,12 @@ const Modal = ({ isOpen, onClose, project }) => {
       </div>
     </div>
   );
+};
+
+Modal.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  project: PropTypes.object // ou PropTypes.object.isRequired si toujours fourni
 };
 
 export default Modal;
