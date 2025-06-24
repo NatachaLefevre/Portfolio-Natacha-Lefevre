@@ -116,6 +116,15 @@
         "githubUrl": "https://github.com/NatachaLefevre/Nawake"
     },
 
+        {
+        "title": "100 Questions",
+        "description": "Création de logo, mise en page d'un livre",
+        "modalDescription": "Livre humoristique de culture générale. J'ai réalisé la couverture, le logo et la mise en page du livre.",
+        "modalTools": "Suite Adobe",
+        "image": "/images/100Questions.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/100Questions"
+    },
+
     {
         "title": "Levelbab",
         "description": "Identité visuelle d'une entreprise immobilière",
