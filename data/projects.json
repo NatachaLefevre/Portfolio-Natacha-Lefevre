@@ -97,7 +97,7 @@
     },
     {
         "title": "Antman",
-        "description": "UI design et game art",
+        "description": "UI design et illustrations d'un jeu vidéo",
         "modalDescription": "Jeu d'aventure et d'énigmes en plateforme 2D. J'ai réalisé les décors, les objets interactifs, le logo, et l'UI du jeu.",
         "modalTools": "Suite Adobe, level design",
         "image": "/images/Antman.webp",
@@ -105,7 +105,7 @@
     },
     {
         "title": "Studio Nawake",
-        "description": "UI design, illustration 2D, graphisme",
+        "description": "Direction artistique d'un studio de création",
         "modalDescription": "Studio de création d'animations 2D, BD et vidéos. J'assure la direction artistique, avec une spécialisation en graphisme, montage vidéo et illustration 2D.",
         "modalTools": "Suite Adobe, Clip Studio Paint, Davinci Resolve",
         "image": "/images/Nawake.webp",
