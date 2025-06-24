@@ -6,9 +6,8 @@
         "modalTools": "React, React Router, SCSS, Javascript et HTML",
         "image": "/images/Kasa.webp",
         "githubUrl": "https://github.com/NatachaLefevre/kasa-immo-appli"
-      },
-
-      {
+    },
+    {
         "title": "UbiMove",
         "description": "Design d'un service numérique interne pour Ubisoft",
         "modalDescription": "Création d'interfaces pour un concours interne d'amélioration des services RH d'Ubisoft. La problématique était notamment de faciliter et simplifier le parcours utilisateur.",
@@ -16,7 +15,6 @@
         "image": "/images/UbiMove.webp",
         "githubUrl": "https://github.com/NatachaLefevre/UbiMove"
     },
-      
     {
         "title": "Sophie Bluel",
         "description": "Portfolio dynamique d'une d'architecte",
@@ -25,8 +23,7 @@
         "image": "/images/Sophie_Bluel.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Portfolio-architecte-sophie-bluel"
     },
-      
-      {
+    {
         "title": "Booki",
         "description": "Page d'accueil responsive d'une agence de voyages",
         "modalDescription": "Développement de la page d'accueil de l'agence Booki, à partir d'une maquette Figma. La problématique était principalement de respecter la maquette, et d'assurer le responsive desktop, tablette et mobile.",
@@ -34,7 +31,6 @@
         "image": "/images/Booki.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Booki-site-d-agence-de-voyages"
     },
-
     {
         "title": "Nina Carducci",
         "description": "Optimisation et debug d'un portfolio de photographe",
@@ -43,7 +39,6 @@
         "image": "/images/Nina_Carducci.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Nina-Carducci-Debug-Optimisation"
     },
-
     {
         "title": "Heritage",
         "description": "UI design et direction artistique d'un jeu vidéo en VR-AR",
@@ -52,7 +47,6 @@
         "image": "/images/Heritage.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Heritage"
     },
-
     {
         "title": "Meet Team'n'Play",
         "description": "Design d'un service numérique pour Ubisoft",
@@ -61,7 +55,6 @@
         "image": "/images/Meet_Team_n_Play.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Meet_Team_n_Play"
     },
-
     {
         "title": "Qwenta - Menu Maker",
         "description": "Gestion de projet de développement de site",
@@ -70,7 +63,6 @@
         "image": "/images/Menu_Maker.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Qwenta-Menu-Maker"
     },
-
     {
         "title": "Mon Vieux Grimoire",
         "description": "Back-end d'une appli de notation de livres",
@@ -79,7 +71,6 @@
         "image": "/images/Grimoire.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Appli-back-end-Mon-Vieux-Grimoire"
     },
-
     {
         "title": "ArtePhy",
         "description": "Design de service numérique pour Arte",
@@ -88,7 +79,6 @@
         "image": "/images/ArtePhy.webp",
         "githubUrl": "https://github.com/NatachaLefevre/ArtePhy"
     },
-
     {
         "title": "Passat Groupe",
         "description": "Communication visuelle d'entreprise",
@@ -97,7 +87,6 @@
         "image": "/images/Passat.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Passat"
     },
-
     {
         "title": "CulturoGame",
         "description": "Design d'une plateforme numérique de jeux",
@@ -106,7 +95,14 @@
         "image": "/images/CulturoGame.webp",
         "githubUrl": "https://github.com/NatachaLefevre/CulturoGame"
     },
-
+    {
+        "title": "Antman",
+        "description": "UI design et game art",
+        "modalDescription": "Jeu d'aventure et d'énigmes en plateforme 2D. J'ai réalisé les décors, les objets interactifs, le logo, et l'UI du jeu.",
+        "modalTools": "Suite Adobe, level design",
+        "image": "/images/Antman.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Antman"
+    },
     {
         "title": "Studio Nawake",
         "description": "UI design, illustration 2D, graphisme",
@@ -115,8 +111,7 @@
         "image": "/images/Nawake.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Nawake"
     },
-
-        {
+    {
         "title": "100 Questions",
         "description": "Création de logo, mise en page d'un livre",
         "modalDescription": "Livre humoristique de culture générale. J'ai réalisé la couverture, le logo et la mise en page du livre.",
@@ -124,7 +119,6 @@
         "image": "/images/100Questions.webp",
         "githubUrl": "https://github.com/NatachaLefevre/100Questions"
     },
-
     {
         "title": "Levelbab",
         "description": "Identité visuelle d'une entreprise immobilière",
