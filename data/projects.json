@@ -1,11 +1,11 @@
 [
     {
-        "title": "Kasa Immo",
-        "description": "Appli d'une agence immobilière",
-        "modalDescription": "Développement front-end du site, avec création de menus déroulants, de carrousels d'images et de modales. L'une des problématiques était de simplifier le code au mieux afin d'éviter les redondances. Le tout en respectant le responsive design.",
-        "modalTools": "React, React Router, SCSS, Javascript et HTML",
-        "image": "/images/Kasa.webp",
-        "githubUrl": "https://github.com/NatachaLefevre/kasa-immo-appli"
+        "title": "Blindtest",
+        "description": "Création d'une appli web de blindtest (en cours)",
+        "modalDescription": "Conception et développement de blindtest à partir de l'API Youtube et d'une base de données Supabase. Un multi est prévu, avec buzzers et timer.",
+        "modalTools": "React, Vite, TypeScript, Tailwind CSS",
+        "image": "/images/Blindtest.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Blindtest"
     },
     {
         "title": "UbiMove",
@@ -14,6 +14,14 @@
         "modalTools": "Suite Adobe, UI design, illustration",
         "image": "/images/UbiMove.webp",
         "githubUrl": "https://github.com/NatachaLefevre/UbiMove"
+    },
+    {
+        "title": "Kasa Immo",
+        "description": "Appli d'une agence immobilière",
+        "modalDescription": "Développement front-end du site, avec création de menus déroulants, de carrousels d'images et de modales. L'une des problématiques était de simplifier le code au mieux afin d'éviter les redondances. Le tout en respectant le responsive design.",
+        "modalTools": "React, React Router, SCSS, Javascript et HTML",
+        "image": "/images/Kasa.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/kasa-immo-appli"
     },
     {
         "title": "Sophie Bluel",
