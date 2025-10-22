@@ -36,7 +36,7 @@ const App = () => {
           <h1 className='dev'>GRAPHISTE DÉVELOPPEUSE</h1>
 
           <p className='text-presentation'>Avec plus de 15 ans d’expérience, je suis disponible <br />pour tout projet de design et développement web.<br />
-            Mon profil polyvalent me permet de comprendre les besoins <br/>de tous les acteurs d’un projet, et d’être à l’aise sur plusieurs disciplines :<br/> print, webdesign, UI-UX, développement frontend, SEO...</p>
+            Mon profil polyvalent me permet de comprendre les besoins <br/>de tous les acteurs d’un projet, et d’être à l’aise sur plusieurs disciplines :<br/> print, webdesign, UI-UX, photo, vidéo, développement frontend, SEO...</p>
         </div>
       </section>
 

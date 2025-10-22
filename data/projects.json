@@ -127,6 +127,14 @@
         "image": "/images/100Questions.webp",
         "githubUrl": "https://github.com/NatachaLefevre/100Questions"
     },
+        {
+        "title": "Vidéos et divertissement",
+        "description": "Prises de vue et montage vidéo, habillage, motion design",
+        "modalDescription": "Projets divers de création vidéo : prises de vue, captation et montages de concerts, clips, machinimas, etc. ",
+        "modalTools": "Premiere Pro, After Effects, DaVinci Resolve",
+        "image": "/images/Videos.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/videos"
+    },
     {
         "title": "Levelbab",
         "description": "Identité visuelle d'une entreprise immobilière",
