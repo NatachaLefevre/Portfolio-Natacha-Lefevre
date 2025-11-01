@@ -33,10 +33,10 @@ const App = () => {
         <div className='title-presentation'>
 
           <h1 className='name'>Natacha Lefèvre</h1>
-          <h1 className='dev'>GRAPHISTE DÉVELOPPEUSE</h1>
+          <h1 className='dev'>GRAPHISTE 360°</h1>
 
-          <p className='text-presentation'>Avec plus de 15 ans d’expérience, je suis disponible <br />pour tout projet de design et développement web.<br />
-            Mon profil polyvalent me permet de comprendre les besoins <br/>de tous les acteurs d’un projet, et d’être à l’aise sur plusieurs disciplines :<br/> print, webdesign, UI-UX, photo, vidéo, développement frontend, SEO...</p>
+          <p className='text-presentation'>Avec plus de 15 ans d’expérience, je suis disponible <br />pour tout projet de création graphique.<br />
+            Mon profil polyvalent me permet de comprendre les besoins <br/>de tous les acteurs d’un projet, et d’être à l’aise sur plusieurs disciplines :<br/> print, webdesign, UI-UX, photo, vidéo, développement frontend...</p>
         </div>
       </section>
 
