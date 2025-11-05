@@ -2,7 +2,7 @@
     {
         "title": "Blindtest",
         "description": "Création d'une appli web de blindtest (en cours)",
-        "modalDescription": "Conception et développement de blindtest à partir de l'API Youtube et d'une base de données Supabase. Un multi est prévu, avec buzzers et timer.",
+        "modalDescription": "Conception et développement de blindtest à partir de l'API Youtube et d'une base de données Supabase.\n\n Le jeu est en cours de développement.\n Un multi est notamment prévu, avec buzzers et timer, et système de points.",
         "modalTools": "React, Vite, TypeScript, Tailwind CSS",
         "image": "/images/Blindtest.webp",
         "githubUrl": "https://github.com/NatachaLefevre/Blindtest"
@@ -74,7 +74,7 @@
     {
         "title": "100 Questions",
         "description": "Création de logo, mise en page d'un livre",
-        "modalDescription": "Livre humoristique de culture générale. J'ai réalisé la couverture, le logo et la mise en page du livre.",
+        "modalDescription": "100 Questions est un livre de culture générale et d'humour, sous forme de questions-réponses, écrit par Charles Perut et Coline Rauzier.\n J'ai réalisé la mise en page du livre, et la création du logo.\n\n Le ton du livre est léger et humoristique, ce qui ressort de la mise en page.\n Cette première édition du livre est également destinée à être déclinée en plusieurs thèmes et couleurs.",
         "modalTools": "Suite Adobe",
         "image": "/images/100Questions.webp",
         "githubUrl": "https://github.com/NatachaLefevre/100Questions"

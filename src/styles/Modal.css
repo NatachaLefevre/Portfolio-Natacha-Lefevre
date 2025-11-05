@@ -1,144 +1,208 @@
+/* === OVERLAY === */
 .modal-overlay {
-  opacity: 1;
-  visibility: visible;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
+/* Bloquer le scroll du body quand la modale est ouverte */
+body.modal-open {
+  overflow: hidden;
+}
+
+/* === MODAL === */
 .modal {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
   background: white;
   padding: 20px;
-  /* border-radius: 20px; */
-  max-width: 1000px;
-  width: 100%;
-  max-height: 95vh;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box; /* important pour que padding n'ajoute pas à la hauteur totale */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); */
   overflow: hidden;
   opacity: 0;
-  transform: scale(0.9);
+  transform: scale(0.95);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
+.modal.open,
 .modal-overlay.show .modal {
   opacity: 1;
   transform: scale(1);
 }
 
-.modal.open {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.modal.closing {
-  opacity: 0;
-  transform: scale(0.9);
-}
-
+/* === TITRE === */
 .modal h2 {
-  margin-top: 0;
+  margin: 0;
   color: #E6007E;
+  font-size: 1.6rem;
+  padding-top: 4px;
 }
 
+/* === WRAPPER IMAGE + TEXTE === */
 .image-description-wrapper {
-  max-width: 90%;
+  width: 100%;
+  max-width: 1800px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.image-description-wrapper img {
-  width: 100%;
-  max-height: 65vh;
-  object-fit: cover;
-  object-position: top;
-  margin: 0;
-  border: 1px solid #E6007E;
-}
-
-.description {
-  line-height: 1.2em;
-  width: 100%;
-  margin: 10px 0;
-  font-size: 1em;
-  color: #242424;
-  background-color: #e5e5e5;
-  padding: 15px 10px;
+  /* margin-top: 18px; */
   box-sizing: border-box;
 }
 
-.tools {
-  font-weight: 700;
-  margin: 5px 0;
-  font-size: 1em;
+/* === IMAGE CONTAINER === */
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.modal a {
-  font-size: 1em;
+.image-container img {
+  width: 100%;
+  /* height: auto; */
+  max-width: 1200px;   
+  max-height: 80vh;     
+  object-fit: contain;
+  /* border: 1px solid #606060; */
+  display: block;
+  box-sizing: border-box;
+}
+
+/* === BLOC TEXTE (utilisé aussi en desktop) === */
+.description-block {
+  width: 100%;
+  max-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 25px; /* espace pour le trait vertical pseudo-element */
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* Trait vertical décoratif */
+.description-block::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #E6007E;
+  border-radius: 2px;
+}
+
+.description {
+  margin: 0;
+  line-height: 1.4;
   color: #242424;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  white-space: pre-line; /* Pour respecter les sauts de ligne dans le texte */
+}
+
+.tools {
+  margin: 0;
+  font-weight: 700;
+  color: #242424;
+}
+
+/* Lien GitHub */
+.modal a {
+  color: #E6007E;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .modal a:hover {
-  color: #E6007E;
+  color: #242424;
 }
 
+/* Bouton Retour */
 button {
-  border-radius: 8px;
+  border-radius: 5px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
-  font-family: inherit;
   background-color: #e5e5e5;
-  transition: border-color 0.25s;
   cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 button:hover {
-  color: white;
   background-color: #242424;
+  color: #fff;
 }
 
+/* === DESKTOP: image à gauche, texte à droite === */
+@media (min-width: 1000px) {
+  .image-description-wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    height: calc(100vh - 80px); 
+  }
 
-@media (max-width: 780px) {
+  .image-container {
+    flex: 0 1 100%;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
 
+  .image-container img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    box-shadow: #bebebe 0px 20px 30px 10px;
+  }
+
+  .description-block {
+    flex: 0 1 40%;     
+    justify-content: center;
+    padding-left: 30px;
+  }
+}
+
+/* === PETITS ÉCRANS === */
+@media (max-width: 999px) {
   .modal {
-    border-radius: 0;
+    padding: 12px;
   }
-
+  .modal h2 {
+    font-size: 1.4rem;
+  }
   .description {
-    font-size: 0.8em;
+    font-size: 0.95rem;
   }
-
   .tools,
-  .modal a {
-    font-size: 0.8em;
+  .modal a,
+  button {
+    font-size: 0.95rem;
   }
-
 }
-
 
 @media (max-width: 600px) {
-
   .description {
-    font-size: 0.6em;
+    font-size: 0.85rem;
   }
-
   .tools,
-  .modal a {
-    font-size: 0.6em;
+  .modal a,
+  button {
+    font-size: 0.85rem;
   }
-
 }

@@ -58,26 +58,27 @@ const Modal = ({ isOpen, onClose, project }) => {
   };
 
   return (
-    <div className={`modal-overlay ${isAnimating ? "show" : ""}`} onClick={handleOverlayClick}>
+<div className={`modal-overlay ${isAnimating ? "show" : ""}`} onClick={handleOverlayClick}>
+  <div className={`modal ${isAnimating ? "open" : "closing"}`}>
+    
+    <div className="image-description-wrapper">
+      <div className="image-container">
+        <img src={project.image} alt={project.title} />
+      </div>
 
-      <div className={`modal ${isAnimating ? "open" : "closing"}`}>
-
+      <div className="description-block">
         <h2>{project.title}</h2>
-
-        <div className="image-description-wrapper">
-          <img src={project.image} alt={project.title} />
-          <p className="description">{project.modalDescription}</p>
-        </div>
-
-        <p className="tools">{project.modalTools}</p>
-
+        <p className="description">{project.modalDescription}</p>
+        {/* <p className="tools">{project.modalTools}</p> */}
         <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
           Voir le projet sur GitHub
         </a>
-
-        <button onClick={handleOverlayClick}>Retour</button>
+        <p><button onClick={handleOverlayClick}>Retour</button></p>
       </div>
     </div>
+  </div>
+</div>
+
   );
 };
 
