@@ -46,8 +46,7 @@ const App = () => {
       <section id="contact">
 
         <h2>CONTACT</h2>
-        <p >Vous avez un projet ? Une question ? Contactez-moi !</p>
-
+      
         <div className='contact-container'>
           <h3>06 95 50 28 50</h3>
           <h3>lefevre.natacha60@gmail.com</h3>
