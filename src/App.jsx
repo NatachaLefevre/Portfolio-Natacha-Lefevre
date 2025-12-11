@@ -35,14 +35,31 @@ const App = () => {
           <h1 className='name'>Natacha Lefèvre</h1>
           <h1 className='dev'>GRAPHISTE 360°</h1>
 
-          <p className='text-presentation'>Avec plus de 15 ans d’expérience, je suis disponible <br />pour tout projet de création graphique.<br />
-            Mon profil polyvalent me permet de comprendre les besoins <br/>de tous les acteurs d’un projet, et d’être à l’aise sur plusieurs disciplines :<br/> print, webdesign, UI-UX, photo, vidéo, développement front-end...</p>
+          <p className='text-presentation'>Je vous accompagne pour tout projet de création visuelle.<br />
+            Grâce à ma polyvalence, je peux créer votre identité visuelle<br />
+            (logo, charte graphique), et la décliner sur tout supports :<br />
+            affiches, flyers, cartes de visite, BD, vidéos, photos, sites web, applis... <br />
+            J&apos;interviens également en développement et référencement web.</p>
         </div>
+      </section>
+
+      <section id="contact">
+
+        <h2>CONTACT</h2>
+        <p >Vous avez un projet ? Une question ? Contactez-moi !</p>
+
+        <div className='contact-container'>
+          <h3>06 95 50 28 50</h3>
+          <h3>lefevre.natacha60@gmail.com</h3>
+        </div>
+
+        <button className='button-CV'><a href="/CV_Natacha_Lefevre.pdf" target="_blank">Formations et expériences</a></button>
+
       </section>
 
       <section id="portfolio">
 
-        <h2>MES PROJETS</h2>
+        <h2>MES RÉALISATIONS</h2>
 
         <div className="project-container">
           {projects.map((project, index) => (

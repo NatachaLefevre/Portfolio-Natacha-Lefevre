@@ -48,6 +48,48 @@
 }
 
 
+/* SECTION CONTACT */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin-bottom: 30px;
+  color: #242424;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 5px;
+}
+
+.button-CV {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #E6007E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-CV a {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* SECTION PORTFOLIO */
 
