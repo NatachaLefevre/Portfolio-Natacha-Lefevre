@@ -1,13 +1,5 @@
 [
     {
-        "title": "Blindtest",
-        "description": "Création d'une appli web de blindtest (en cours)",
-        "modalDescription": "Conception et développement de blindtest à partir de l'API Youtube et d'une base de données Supabase.\n\n Le jeu est en cours de développement.\n Un multi est notamment prévu, avec buzzers et timer, et système de points.",
-        "modalTools": "React, Vite, TypeScript, Tailwind CSS",
-        "image": "/images/Blindtest.webp",
-        "githubUrl": "https://github.com/NatachaLefevre/Blindtest"
-    },
-    {
         "title": "UbiMove",
         "description": "Design d'un service numérique interne pour Ubisoft",
         "modalDescription": "Création d'interfaces pour un concours interne d'amélioration des services RH d'Ubisoft. La problématique était notamment de faciliter et simplifier le parcours utilisateur.",
@@ -80,6 +72,14 @@
         "githubUrl": "https://github.com/NatachaLefevre/100Questions"
     },
         {
+        "title": "Levelbab",
+        "description": "Identité visuelle d'une entreprise immobilière",
+        "modalDescription": "Création du logo et de la charte graphique d'une entreprise qui aide à l'accès à l'achat immobilier. Les visuels ont été conçus pour être exploitables sur des supports print et web.",
+        "modalTools": "Suite Adobe, UI design",
+        "image": "/images/LevelBab.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/LevelBab"
+    },
+        {
         "title": "Vidéos et divertissement",
         "description": "Prises de vue et montage vidéo, habillage, motion design",
         "modalDescription": "Projets divers de création vidéo : prises de vue, captation et montages de concerts, clips, machinimas, etc. ",
@@ -87,12 +87,12 @@
         "image": "/images/Videos.webp",
         "githubUrl": "https://github.com/NatachaLefevre/videos"
     },
-    {
-        "title": "Levelbab",
-        "description": "Identité visuelle d'une entreprise immobilière",
-        "modalDescription": "Création du logo et de la charte graphique d'une entreprise qui aide à l'accès à l'achat immobilier. Les visuels ont été conçus pour être exploitables sur des supports print et web.",
-        "modalTools": "Suite Adobe, UI design",
-        "image": "/images/LevelBab.webp",
-        "githubUrl": "https://github.com/NatachaLefevre/LevelBab"
+        {
+        "title": "Blindtest",
+        "description": "Création d'une appli web de blindtest (en cours)",
+        "modalDescription": "Conception et développement de blindtest à partir de l'API Youtube et d'une base de données Supabase.\n\n Le jeu est en cours de développement.\n Un multi est notamment prévu, avec buzzers et timer, et système de points.",
+        "modalTools": "React, Vite, TypeScript, Tailwind CSS",
+        "image": "/images/Blindtest.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Blindtest"
     }
 ]
