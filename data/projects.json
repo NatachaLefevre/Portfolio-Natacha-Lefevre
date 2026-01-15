@@ -8,6 +8,14 @@
         "githubUrl": "https://github.com/NatachaLefevre/UbiMove"
     },
     {
+        "title": "Game Impact",
+        "description": "Supports de communication pour une association",
+        "modalDescription": "Création et mise en page de livrets, flyers, cartes de visite et interfaces de streaming pour l'association Game Impact.",
+        "modalTools": "Suite Adobe, UI design",
+        "image": "/images/Game-Impact.webp",
+        "githubUrl": "https://github.com/NatachaLefevre/Game-Impact"
+    },
+    {
         "title": "Heritage",
         "description": "UI design et direction artistique d'un jeu vidéo en VR-AR",
         "modalDescription": "Party game qui mélange jeu de société et jeu vidéo en réalité virtuelle avec le cardboard Google. J'ai assuré la direction artistique: UI du jeu, character design, design des cartes et du cardboard, logo, communication.",
