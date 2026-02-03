@@ -37,7 +37,7 @@ const App = () => {
 
           <p className='text-presentation'>Je vous accompagne pour tout projet de création visuelle.<br />
             Grâce à ma polyvalence, je peux créer votre identité visuelle<br />
-            (logo, charte graphique), et la décliner sur tout supports :<br />
+            (logo, charte graphique), et la décliner sur tous supports :<br />
             affiches, flyers, cartes de visite, BD, vidéos, photos, sites web, applis... <br />
             J&apos;interviens également en développement et référencement web.</p>
         </div>
